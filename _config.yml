@@ -22,7 +22,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-postcss
+
+postcss:
+  cache: false
 
 sass:
   style: compressed
-  sass_dir: _sass
+  sass_dir: _sasss
